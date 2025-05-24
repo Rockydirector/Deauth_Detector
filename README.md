@@ -26,20 +26,8 @@ sudo python core/detector.py
 - Flash `hardware/esp32_node/firmware/esp32_deauth_sniffer.ino` to ESP32.
 - Place nodes at known positions for triangulation.
 
-## Sample Output
-
-![Alert Screenshot](samples/alert_screenshot.png)
-
 ## Forensic Logs
 
 See `logs/sample_log.csv`.
 
-## Triangulation
-
-See `hardware/triangulation_diagram.png` and `samples/heatmap_example.png`.
-
 ---
-
-**Contact:**  
-Your Name  
-your.email@example.com
