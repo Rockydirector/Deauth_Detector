@@ -7,7 +7,6 @@
 - Proximity estimation via RSSI
 - Alerts for repeated or high-risk deauths
 - MAC spoofing detection via RSSI/MAC correlation
-- (Bonus) Multi-node triangulation with ESP32 nodes
 - CSV logs for forensics
 - Visualization samples
 
@@ -21,10 +20,6 @@ pip install -r requirements.txt
 
 3. **Run detector:**
 sudo python core/detector.py
-
-4. **(Optional) ESP32 Node:**
-- Flash `hardware/esp32_node/firmware/esp32_deauth_sniffer.ino` to ESP32.
-- Place nodes at known positions for triangulation.
 
 ## Forensic Logs
 
